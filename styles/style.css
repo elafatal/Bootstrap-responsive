@@ -6,14 +6,17 @@
     font-family: poppinsRegular;
     src: url("..//assets/fonts/Poppins-Regular.ttf");
   }
-  :root {
-    --blueGradiant: #3b2a9f;
-    --purpleGradient: #5141aa;
-    --orange: #fa8305;
-    --box_bg: #1c140f;
-  }
+
+:root {
+      --black-700: #000;
+      --blueGradiant: #3b2a9f;
+      --primary-100: #5141aa;
+      --secondary: #fa8305;
+      --box_bg: #1c140f;
+    }
   
-  .f-bold {
+  
+  .bold {
     font-family: poppinsBold;
   }
   .f-regular {
@@ -23,13 +26,16 @@
     background-color: var(--blueGradiant);
   }
   .bg-orange{
-    background-color: var(--orange);
+    background-color: var(--secondary);
   }
   .bg-purpleGradient{
-    background-color: var(--purpleGradient);
+    background-color: var(--primary-100);
   }
   .bg-box_bg{
     background-color: var(--box_bg);
+  }
+  .orange{
+    color: var(--secondary);
   }
   .rec-parent{
     display: flex;
@@ -52,3 +58,29 @@
     border-radius: 50%;
   }
   
+  .s1p {
+    position: relative;
+    left: 60px;
+    width: 450px;
+  }
+  .s1p1 {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    width: 70px;
+  }
+  .s1p2 {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    width: 100px;
+  }
+  .s1p3 {
+    position: absolute;
+    top: 230px;
+    left: -30px;
+    width: 90px;
+  }
+  .weight{
+    font-weight: 700;
+  }
