@@ -28,7 +28,7 @@
   .bg-orange{
     background-color: var(--secondary);
   }
-  .bg-purpleGradient{
+  .bg-purpleGradient2{
     background-color: var(--primary-100);
   }
   .bg-box_bg{
@@ -81,6 +81,39 @@
     left: -30px;
     width: 90px;
   }
-  .weight{
-    font-weight: 700;
+  .image_Cards {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
   }
+  .search_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 15px;
+    gap: 20px;
+  }
+  .image_round {
+    border-radius: 5%;
+  }
+  .sec2-btn{
+    width: 139px;
+    height: 57px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-100);
+    color: #fff;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500px;
+
+  }
+   .fire:hover .a {
+    transform: scale(1.2); 
+    
+   }
+   
+ 
