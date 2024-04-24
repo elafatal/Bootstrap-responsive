@@ -1,0 +1,54 @@
+@font-face {
+    font-family: poppinsBold;
+    src: url("..//assets/fonts/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: poppinsRegular;
+    src: url("..//assets/fonts/Poppins-Regular.ttf");
+  }
+  :root {
+    --blueGradiant: #3b2a9f;
+    --purpleGradient: #5141aa;
+    --orange: #fa8305;
+    --box_bg: #1c140f;
+  }
+  
+  .f-bold {
+    font-family: poppinsBold;
+  }
+  .f-regular {
+    font-family: poppinsRegular;
+  }
+  .bg-blueGradiant{
+    background-color: var(--blueGradiant);
+  }
+  .bg-orange{
+    background-color: var(--orange);
+  }
+  .bg-purpleGradient{
+    background-color: var(--purpleGradient);
+  }
+  .bg-box_bg{
+    background-color: var(--box_bg);
+  }
+  .rec-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3px;
+    width: 38.97px;
+  
+  }
+  #rec1{
+    width: 30.97px;
+    background-color: var(--secondary);
+    height: 4px;
+    border-radius: 3px;
+  }
+  #rec2{
+    width: 5px;
+    height: 4px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+  }
+  
