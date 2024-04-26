@@ -103,12 +103,7 @@
    .fire:hover .a {
     transform: scale(1.2); 
    }
-   .col-5:nth-child(3) {
-    order: 3;
-   }
-   .col-7:nth-child(4) {
-    order: 1;
-   }
+
    
    
  
