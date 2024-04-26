@@ -103,13 +103,30 @@
    .fire:hover .a {
     transform: scale(1.2); 
    }
+   .size-icon{
+    width: 64px;
+    height: 64px;
+   }
 
   @media (min-width: 1000px) {
-    /* Styles for LG screens */
     .d {
       width: 386px;
         }
         .search-bar {
           justify-content: flex-end;
         }
+  }
+  @media (max-width: 1000px) {
+    .j {
+      margin-bottom: 10px;
+        }
+        
+  }
+  @media (max-width: 1000px) {
+    .l {
+   width: 434px;
+   
+    
+        }
+        
   }
