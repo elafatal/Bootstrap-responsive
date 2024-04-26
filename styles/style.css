@@ -105,7 +105,7 @@
    }
    .size-icon{
     width: 64px;
-    height: 64px;
+    height: 60px;
    }
 
   @media (min-width: 1000px) {
@@ -123,9 +123,10 @@
         
   }
   @media (max-width: 1000px) {
-    .l {
-   width: 434px;
-   
+    .m {
+  margin-left:   10px ;
+
+  margin-right: 10px;
     
         }
         
