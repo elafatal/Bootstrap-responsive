@@ -28,15 +28,16 @@
   .bg-orange{
     background-color: var(--secondary);
   }
+  .orange{
+    color: var(--secondary);
+  }
   .bg-purpleGradient2{
     background-color: var(--primary-100);
   }
   .bg-box_bg{
     background-color: var(--box_bg);
   }
-  .orange{
-    color: var(--secondary);
-  }
+  
   .rec-parent{
     display: flex;
     flex-direction: row;
@@ -87,18 +88,6 @@
     object-fit: cover;
     border-radius: 30px;
   }
-  .search_bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 10px 18px;
-    border-radius: 15px;
-    gap: 20px;
-  }
-  .image_round {
-    border-radius: 5%;
-  }
   .sec2-btn{
     width: 139px;
     height: 57px;
@@ -113,7 +102,13 @@
   }
    .fire:hover .a {
     transform: scale(1.2); 
-    
    }
+   .col-5:nth-child(3) {
+    order: 3;
+   }
+   .col-7:nth-child(4) {
+    order: 1;
+   }
+   
    
  
